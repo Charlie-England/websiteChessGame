@@ -1,0 +1,122 @@
+body {
+    background-color: #ebecf1;
+    font-size: 0;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border-color: white;
+    border-style: solid;
+    background-color: white;
+    border-width: 2px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.outer-div {
+    border: solid;
+    border-width: 20px;
+    border-color: black;
+    margin: 5%;
+    width: 600px;
+    height: 600px;
+}
+
+.col-div {
+    padding: 0;
+    display: inline-block;
+    max-width: 12.5%;
+    height: 100%;
+}
+
+.row-div {
+    height: 12.5%;
+}
+
+.blk-grid-spot {
+    background-color: gray;
+    border-color: gray;
+}
+
+.player-info {
+    position: absolute;
+    display: inline-block;
+    left: 700px;
+    top: 5%;
+    text-align: center;
+}
+
+.player1-info {
+    margin-top: 250px;
+}
+
+.selected-piece {
+    border: solid;
+    border-width: 2px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.active-player {
+    font-weight: bold;
+}
+
+/* Background Image Classes */
+
+.no-piece {
+    background-image: none;
+}
+
+.blk-pawn {
+    background-image: url("../pieces/blk-pawn.png");
+}
+
+.blk-rook {
+    background-image: url("../pieces/blk-rook.png");
+}
+
+.blk-knight {
+    background-image: url("../pieces/blk-knight.png");
+}
+
+.blk-bishop {
+    background-image: url("../pieces/blk-bishop.png");
+}
+
+.blk-queen {
+    background-image: url("../pieces/blk-queen.png");
+}
+
+.blk-king {
+    background-image: url("../pieces/blk-king.png");
+}
+
+.white-pawn {
+    background-image: url("../pieces/white-pawn.png");
+}
+
+.white-rook {
+    background-image: url("../pieces/white-rook.png");
+}
+
+.white-knight {
+    background-image: url("../pieces/white-knight.png");
+}
+
+.white-bishop {
+    background-image: url("../pieces/white-bishop.png");
+}
+
+.white-queen {
+    background-image: url("../pieces/white-queen.png");
+}
+
+.white-king {
+    background-image: url("../pieces/white-king.png");
+}
